@@ -1,6 +1,7 @@
-module Api::V1
-	class ApiController < ApplicationController 
-		#API STUFF GOES IN HERE
+# app/controllers/api/v1/api_controller.rb
 
-	end
+module Api::V1
+  class ApiController < ApplicationController
+    # Generic API stuff here
+  end
 end
