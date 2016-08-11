@@ -1,2 +1,0 @@
-class SpendingsController < ApplicationController
-end

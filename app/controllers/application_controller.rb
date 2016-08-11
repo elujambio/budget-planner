@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::API
-	include ActionController::HttpAuthentication::Token::ControllerMethods
 	include ActionController::Serialization
+	include ActionController::HttpAuthentication::Token::ControllerMethods
 
 	# Add before_action to authenticate all requests
 	# Move this to specific controller if you only want to authenticate specific methods
