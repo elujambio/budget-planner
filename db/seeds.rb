@@ -5,3 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+API_TEST_USER = User.create({ name: "Pablo", email: "eugenio@nuva.rocks", password: "qwerty123", password_confirmation: "qwerty123", api_key: "PsmmvKBqQDOaWwEsPpOCYMsy" })
