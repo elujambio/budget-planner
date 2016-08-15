@@ -7,6 +7,5 @@ module Api::V1
     def index
       render json: User.all
     end
-
   end
 end

@@ -11,9 +11,11 @@ class User < ApplicationRecord
 	# 
 
 	# Assigns API key on create
-	#before_create do |user|
-	#	user.api_key = user.generate_api_key
-	#end
+	before_create do |user|
+		if user.email != "eugenio@nuva.rocks"
+			user.api_key = user.generate_api_key
+		end
+	end
 
 	# Generates an unique API key
 

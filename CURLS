@@ -1,0 +1,7 @@
+// GETS budget
+
+curl -H "AutWwEsPpOCYMsy" http://localhost:3000/api/v1/budgets/7.json
+
+// POSTS new budget
+
+curl -H "AutWwEsPpOCYMsy" -H "Content-Type: application/json" -X POST -d '{"total":"1000", "name":"6 months"}' http://localhost:3000/api/v1/budgets
